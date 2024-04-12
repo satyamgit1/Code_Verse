@@ -42,9 +42,12 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
             socketRef.current.on(ACTIONS.CODE_CHANGE, ({ code }) => {
                 if (code !== null) {
                     editorRef.current.setValue(code);
+                    
                 }
             });
         }
+        
+
 
         return () => {
             socketRef.current.off(ACTIONS.CODE_CHANGE);

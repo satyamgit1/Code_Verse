@@ -47,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.22"
   },
   "description": "https://code-sync.codersgyan.com/",
   "main": "server.js",
